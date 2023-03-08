@@ -14,6 +14,7 @@ public class SecondThreadClass extends Thread {
 		SecondThreadClass thread2 = new SecondThreadClass();
 		thread2.start();
 		System.out.println("Main Thread");
+		System.out.println(Thread.activeCount());
 	}
 
 }

@@ -8,7 +8,7 @@ public class FirstThreadCreation extends Thread {
 	}
 
 	public static void main(String[] args) {
-
+		// few changes
 		FirstThreadCreation thread = new FirstThreadCreation();
 		thread.start();
 		for (int i = 0; i < 10; i++) {
